@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e1e0e0;
+}
+
+.container{
+    position: relative;
+    width: 450px;
+    height: 550px;
+    background-color: #cccccc;
+    border-radius: 16px;
+    box-shadow: 3px 2px 11px #b7c6d6;
+}
+
+main{
+    text-align: center;
+}
+
+h1{
+    width: 100%;
+    margin: 10px 0 15px 0;
+    color: #007BFF;
+    text-shadow: 1px 1px 3px #007BFF;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    width: 63%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 7px #b7c6d6, inset 2px 2px 5px #b7c6d6, inset -3px -3px 5px #b7c6d6;
+}
+
+#btn{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 5px 5px 7px #b7c6d6, inset 2px 2px 5px #b7c6d6, inset -3px -3px 5px #b7c6d6;
+}
+
+button:hover{
+    background-color: #0056B3;
+    transition: 0.5s;
+    color: #FFFF;
+}
+
+h3{
+    margin-top: 10px;
+}
+
+li{
+    position: relative;
+    margin: 15px 32px;
+    padding: 10px;
+    min-height: 45px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+ul{
+    height: 390px;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: #b7c6d673;
+    box-shadow: 5px 5px 15px #b7c6d6
+}
+
+::-webkit-scrollbar-thumb{
+    background: #b7c6d6;
+    border-radius: 10px;
+}
+
+span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 15px;
+}
+
+span:hover{
+    background-color: #177be6;
+    transition: 0.5s;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+}
