@@ -4,7 +4,7 @@ const input = document.getElementById('input');
 btn.addEventListener('click', function(){
     if(input.value == ''){
         const h3 = document.getElementById('h3');
-        h3.textContent = 'Digite algo no campo em branco!'
+        h3.textContent = 'Type something in the text field!'
     }else{
         const list = document.getElementById('list');
         const newElement = document.createElement('li');
